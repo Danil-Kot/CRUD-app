@@ -6,3 +6,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# PyCharm
+.idea
+.idea/
+
+# Default ignored files
+/shelf/
+/workspace.xml.idea

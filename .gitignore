@@ -14,8 +14,3 @@ venv.bak/
 # Default ignored files
 /shelf/
 /workspace.xml.idea
-
-# PyCharm
-.idea
-.idea/
-

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+ <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                    <a class="nav__link" href="#"> Главная </a>
+                    <a class="nav__link" href="#"> Посты </a>
+                    <a class="nav__link" style="position: absolute; right: 6%" href="#"> Войти </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+    	<div class="container">
+    		<content class="content">
+    		<!-- <h1> Post </h1> -->
+    		<p> Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur.</p>
+    		</content>
+    	</div>
+    </main>
+    <div class="container">
+    	<div class="contents">
+			<h1>THE WEBSITE</h1>
+  	  	    <p>This is your second chance.</p>
+    	</div>
+
+    </div>
+
+</body>
+</html>
